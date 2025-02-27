@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1F741FFC2D70AFAC00175546 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F741FF62D70AFAC00175546 /* Preview Assets.xcassets */; };
+		1F741FFD2D70AFAC00175546 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F741FF82D70AFAC00175546 /* Assets.xcassets */; };
+		1F741FFE2D70AFAC00175546 /* CurrencyConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F741FF92D70AFAC00175546 /* CurrencyConverterView.swift */; };
+		1F741FFF2D70AFAC00175546 /* CurrencyConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F741FFA2D70AFAC00175546 /* CurrencyConverterApp.swift */; };
+		1F7420042D70B00800175546 /* CurrencyConverterItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7420032D70B00800175546 /* CurrencyConverterItemView.swift */; };
+		1F7420062D70B01900175546 /* CurrencyConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7420052D70B01900175546 /* CurrencyConverterViewModel.swift */; };
+		1F7420082D70B02200175546 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7420072D70B02200175546 /* CurrencyConverter.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1F741FE52D70AFA300175546 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F741FF62D70AFAC00175546 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F741FF82D70AFAC00175546 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F741FF92D70AFAC00175546 /* CurrencyConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterView.swift; sourceTree = "<group>"; };
+		1F741FFA2D70AFAC00175546 /* CurrencyConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterApp.swift; sourceTree = "<group>"; };
+		1F7420032D70B00800175546 /* CurrencyConverterItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterItemView.swift; sourceTree = "<group>"; };
+		1F7420052D70B01900175546 /* CurrencyConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterViewModel.swift; sourceTree = "<group>"; };
+		1F7420072D70B02200175546 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		1F741FE72D70AFA300175546 /* CurrencyConverter */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CurrencyConverter;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1F741FE22D70AFA300175546 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		1F741FDC2D70AFA300175546 = {
 			isa = PBXGroup;
 			children = (
-				1F741FE72D70AFA300175546 /* CurrencyConverter */,
+				1F741FFB2D70AFAC00175546 /* CurrencyConverter */,
 				1F741FE62D70AFA300175546 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,52 @@
 				1F741FE52D70AFA300175546 /* CurrencyConverter.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1F741FF72D70AFAC00175546 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F741FF82D70AFAC00175546 /* Assets.xcassets */,
+				1F741FF62D70AFAC00175546 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F741FFB2D70AFAC00175546 /* CurrencyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				1F741FFA2D70AFAC00175546 /* CurrencyConverterApp.swift */,
+				1F7420012D70AFB200175546 /* Model */,
+				1F7420022D70AFB900175546 /* ViewModels */,
+				1F7420002D70AFAE00175546 /* Views */,
+				1F741FF72D70AFAC00175546 /* Preview Content */,
+			);
+			path = CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		1F7420002D70AFAE00175546 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F741FF92D70AFAC00175546 /* CurrencyConverterView.swift */,
+				1F7420032D70B00800175546 /* CurrencyConverterItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1F7420012D70AFB200175546 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F7420072D70B02200175546 /* CurrencyConverter.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F7420022D70AFB900175546 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				1F7420052D70B01900175546 /* CurrencyConverterViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +114,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				1F741FE72D70AFA300175546 /* CurrencyConverter */,
 			);
 			name = CurrencyConverter;
 			packageProductDependencies = (
@@ -109,6 +161,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F741FFC2D70AFAC00175546 /* Preview Assets.xcassets in Resources */,
+				1F741FFD2D70AFAC00175546 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F7420062D70B01900175546 /* CurrencyConverterViewModel.swift in Sources */,
+				1F7420082D70B02200175546 /* CurrencyConverter.swift in Sources */,
+				1F741FFE2D70AFAC00175546 /* CurrencyConverterView.swift in Sources */,
+				1F741FFF2D70AFAC00175546 /* CurrencyConverterApp.swift in Sources */,
+				1F7420042D70B00800175546 /* CurrencyConverterItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
