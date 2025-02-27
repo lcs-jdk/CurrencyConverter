@@ -35,6 +35,15 @@ struct CurrencyConverterView: View {
             .buttonStyle(.borderedProminent)
             .padding(.bottom)
             
+            // Show a title for the history
+
+            HStack {
+                Text("History")
+                    .bold()
+                Spacer()
+            }
+            .padding(.vertical)
+             
             
             
             
@@ -52,9 +61,7 @@ struct CurrencyConverterView: View {
             
             
             
-            
-            
-            
+    
             
             
             
