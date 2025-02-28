@@ -13,8 +13,31 @@ struct CurrencyConverterItemView: View {
     
     // MARK: Computed properties
     var body: some View{
-        HStack{
+        VStack(alignment: .center){
+            VStack {
+                
+                Text("\(currencyconverter.CAD.formatted())$")
+                Spacer()
+                
+                HStack(alignment: .center) {
+                    Spacer()
+                    Text("\(currencyconverter.USD.formatted())$")
+                    Spacer()
+                    Text("\(currencyconverter.EUR.formatted())€")
+                    Spacer()
+                    Text("\(currencyconverter.GBP.formatted())£")
+                    Spacer()
+
+                }
+            }
+            .lineLimit(1)
+            .minimumScaleFactor(0.5)
             
+            Spacer()
         }
     }
+}
+
+#Preview {
+    CurrencyConverterItemView(currencyconverter: .init(CAD: 18))
 }

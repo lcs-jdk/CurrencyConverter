@@ -19,7 +19,7 @@ struct CurrencyConverterView: View {
             
             // OUTPUT
             if let currencyConverter = viewModel.currencyConverter{
-                Text("USD: \(currencyConverter.USD), EUR: \(currencyConverter.EUR), GBP: \(currencyConverter.GBP)")
+                Text("USD: \(currencyConverter.USD)$, EUR: \(currencyConverter.EUR)€, GBP: \(currencyConverter.GBP)£")
             }
 
             Text(viewModel.recoverySuggestion)
@@ -44,26 +44,7 @@ struct CurrencyConverterView: View {
             }
             .padding(.vertical)
              
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-    
-            
-            
+      
             
         }
         
